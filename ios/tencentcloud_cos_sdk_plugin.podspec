@@ -18,9 +18,9 @@ Tencent COS Flutter Plugin SDK.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.dependency 'QCloudCOSXML','6.5.1'
-  s.platform = :ios, '10.0'
+  s.platform = :ios, '16.0'
   s.static_framework = true
 
   # Flutter.framework does not contain a i386 slice.
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 end
